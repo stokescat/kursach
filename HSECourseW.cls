@@ -40,10 +40,10 @@
 % Настройка подписей рисунков и таблиц
 \RequirePackage{caption}
 \captionsetup{
-	font=small,
+	font={small, it},
 	justification=centering,
 	labelsep=period,
-	skip=4pt
+	skip=5pt
 }
 \captionsetup[table]{justification=raggedright, singlelinecheck=off}
 
@@ -64,6 +64,50 @@
 	\thispagestyle{empty}
 	\oldtableofcontents
 }
+
+% Для корректного отображения URL-ссылок
+\RequirePackage{url}
+
+% Листинги
+\RequirePackage{listings}
+\RequirePackage{xcolor} % Для подсветки синтаксиса
+\RequirePackage{float}
+
+% ГОСТ-настройки листингов
+\DeclareCaptionLabelFormat{gostcaption}{Листинг #2} % Формат "Листинг X"
+\captionsetup[lstlisting]{
+	labelformat=gostcaption,
+	justification=centering,
+	singlelinecheck=false,
+	font={small,it},
+	position=bottom,
+	skip=5pt
+}
+
+% Стиль кода по ГОСТ
+\lstset{
+	language=C,
+	basicstyle=\ttfamily\small,
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	stepnumber=1,
+	numbersep=8pt,
+	frame=single,
+	rulecolor=\color{black},
+	tabsize=4,
+	captionpos=b,
+	breaklines=true,
+	postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}},
+	extendedchars=true,
+	inputencoding=utf8,
+	showspaces=false,
+	showstringspaces=false,
+	backgroundcolor=\color{white},
+	keywordstyle=\color{blue}\bfseries,
+	commentstyle=\color{red},
+	stringstyle=\color{red}
+}
+
 
 % Настройка заголовков
 \RequirePackage{titlesec}

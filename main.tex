@@ -1,5 +1,7 @@
 \documentclass{HSECourseW}
 
+\usepackage{csvsimple}
+
 \renewcommand{\TitleFaculty}{Факультет компьютерных наук}
 \renewcommand{\TitleProgram}{<<Системное программирование>>}
 \renewcommand{\TitleDepartment}{программной инженерии}
@@ -7,9 +9,16 @@
 \renewcommand{\TitleGroupNum}{МСТПР241}
 \renewcommand{\TitleAuthor}{Набережнев Павел Александрович}
 \renewcommand{\TitleSupervisor}{доцент, к.ф.-м.н., А. В. Хорошилов}
-\renewcommand{\TitleConsultant}{В. Ю. Чепцов}
+\renewcommand{\TitleConsultant}{  В. Ю. Чепцов  }
 \renewcommand{\TitleCity}{Москва}
 \renewcommand{\TitleYear}{2025}
+
+\newcommand{\FName}[1]{\textit{#1}}
+\newcommand{\FunName}[1]{\textit{#1()}}
+\newcommand{\FlagName}[1]{\textit{#1}}
+\newcommand{\ErrorName}[1]{\textit{#1}}
+\newcommand{\VarName}[1]{\textit{#1}}
+\newcommand{\TypeName}[1]{\textbf{#1}}
 
 \begin{document}
 	
@@ -23,7 +32,9 @@
 \tableofcontents
 
 \include{Introduce}
-\include{Results}
+\include{ResultsFat}
+\include{ResultsExt}
+\include{ResultsNtfs}
 
 % СПИСОК ЛИТЕРАТУРЫ
 \bibliographystyle{gost71u}
