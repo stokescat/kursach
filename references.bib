@@ -11,7 +11,15 @@
   urldate      = {2023-10-10}
 }
 
-@standard{ISO_C17,
+@manual{UEFIPI,
+  title        = {UEFI Platform Initialization Specification, Release 1.9},
+  author       = {{Unified Extensible Firmware Interface Forum}},
+  year         = {2023},
+  note         = {Final Draft},
+  url          = {https://uefi.org/specifications} 
+}
+
+@manual{ISO_C17,
   author       = {{ISO/IEC}},
   title        = {Information technology — Programming languages — C},
   type         = {Standard},
@@ -22,4 +30,72 @@
   url          = {http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2310.pdf},
   language     = {en},
   urldate      = {2025-06-15}
+}
+
+% На статью Кулямина
+@article{Kuliamin,
+    author = {Кулямин, В. В.},
+    title = {Обзор методов динамического анализа программного обеспечения},
+    journal = {Труды ИСП РАН},
+    volume = {35},
+    number = {4},
+    pages = {7--44},
+    year = {2023},
+    doi = {10.15514/ISPRAS-2023-35(4)-1},
+    url = {https://doi.org/10.15514/ISPRAS-2023-35(4)-1}
+}
+
+@article{Boehme,
+  author       = {Marcel B{\"o}hme and Cristian Cadar and Abhik Roychoudhury},
+  title        = {Fuzzing: Challenges and Reflections},
+  journal      = {IEEE Software},
+  year         = {2021},
+  volume       = {38},
+  number       = {3},
+  pages        = {79--86},
+  doi          = {10.1109/MS.2020.3016773},
+  url          = {https://doi.org/10.1109/MS.2020.3016773}
+}
+
+@article{Manes,
+  author       = {Valentin J. M. Manes and 
+                  HyungSeok Han and 
+                  Choongwoo Han and 
+                  Sang Kil Cha and 
+                  Manuel Egele and 
+                  Edward J. Schwartz and 
+                  Maverick Woo},
+  title        = {The Art, Science, and Engineering of Fuzzing: A Survey},
+  journal      = {arXiv preprint},
+  year         = {2019},
+  volume       = {arXiv:1812.00140v4},
+  url          = {https://arxiv.org/abs/1812.00140},
+  eprint       = {1812.00140},
+  note         = {Manuscript submitted on April 8, 2019}
+}
+
+@manual{Libfuzzer,
+  author       = {LLVM Project},
+  title        = {libFuzzer -- a library for coverage-guided fuzz testing},
+  year         = {2023},
+  note         = {Accessed: 2025-06-15},
+  url          = {https://llvm.org/docs/LibFuzzer.html},
+  organization = {LLVM}
+}
+
+
+@misc{OpenCorePkg,
+  author = {{Acidanthera}},
+  title = {{OpenCorePkg}: Open-source boot loader},
+  year = {2025},
+  howpublished = {\url{https://github.com/acidanthera/OpenCorePkg}},
+  note = {Accessed: 2025-06-15}
+}
+
+@misc{Audk,
+  author = {{Acidanthera}},
+  title = {{audk}: Apple UEFI Development Kit},
+  year = {2025},
+  howpublished = {\url{https://github.com/acidanthera/audk}},
+  note = {Accessed: 2025-06-15}
 }

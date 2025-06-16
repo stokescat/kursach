@@ -1,0 +1,89 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="8BWoqPCIvuqqueDVsgtL">
+    <mxGraphModel dx="1434" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-1" target="TIzxFYk-znSBguAQB0Zm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-2" target="TIzxFYk-znSBguAQB0Zm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-2" value="Создать пустой путь относительно корня" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-12" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-3" target="TIzxFYk-znSBguAQB0Zm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-3" target="TIzxFYk-znSBguAQB0Zm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-3" value="Нужен подкаталог?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332" y="40" width="162.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-4" target="TIzxFYk-znSBguAQB0Zm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-4" value="Добавить подкаталог в путь" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="50" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-5" target="TIzxFYk-znSBguAQB0Zm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-5" value="Создать новый каталог относительно корня" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-6" target="TIzxFYk-znSBguAQB0Zm-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="618" y="240" />
+              <mxPoint x="720" y="240" />
+              <mxPoint x="720" y="20" />
+              <mxPoint x="413" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-6" value="Закрыть каталог" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-17" target="TIzxFYk-znSBguAQB0Zm-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-17" value="Добавить имя файла в путь" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=2;spacingRight=2;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="183.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-18" target="TIzxFYk-znSBguAQB0Zm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-18" value="Открыть новый файл относительно корня на запись" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=2;spacingRight=2;" vertex="1" parent="1">
+          <mxGeometry x="299.5" y="190" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-19" target="TIzxFYk-znSBguAQB0Zm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-19" value="Записать в него тестовый текст" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="260" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-20" target="TIzxFYk-znSBguAQB0Zm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-20" value="Закрыть файл" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="310" width="158" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TIzxFYk-znSBguAQB0Zm-21" target="TIzxFYk-znSBguAQB0Zm-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-21" value="Очистить путь" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="360" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TIzxFYk-znSBguAQB0Zm-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="391.5" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

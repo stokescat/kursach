@@ -1,6 +1,7 @@
 \documentclass{HSECourseW}
 
-\usepackage{csvsimple}
+\usepackage{graphicx}
+
 
 \renewcommand{\TitleFaculty}{Факультет компьютерных наук}
 \renewcommand{\TitleProgram}{<<Системное программирование>>}
@@ -19,6 +20,7 @@
 \newcommand{\ErrorName}[1]{\textit{#1}}
 \newcommand{\VarName}[1]{\textit{#1}}
 \newcommand{\TypeName}[1]{\textbf{#1}}
+\newcommand{\GitName}[1]{\textbf{#1}}
 
 \begin{document}
 	
@@ -32,9 +34,12 @@
 \tableofcontents
 
 \include{Introduce}
+\include{Env}
+\include{Method}
 \include{ResultsFat}
 \include{ResultsExt}
 \include{ResultsNtfs}
+\include{Conclusion}
 
 % СПИСОК ЛИТЕРАТУРЫ
 \bibliographystyle{gost71u}

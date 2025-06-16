@@ -140,7 +140,7 @@
 
 % Титульная страница
 \renewcommand{\titlepage}{
-	\setcounter{page}{0}
+	\setcounter{page}{1}
 	\thispagestyle{empty}
 	\begin{center}
 		\textbf{Федеральное государственное автономное образовательное учреждение \\ 
