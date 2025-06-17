@@ -70,7 +70,7 @@
 
 % Листинги
 \RequirePackage{listings}
-\RequirePackage{xcolor} % Для подсветки синтаксиса
+\RequirePackage[dvipsnames]{xcolor} % Для подсветки синтаксиса
 \RequirePackage{float}
 
 % ГОСТ-настройки листингов
@@ -84,10 +84,18 @@
 	skip=5pt
 }
 
+\lstset{
+	basicstyle=\ttfamily,
+	escapeinside={(*@}{@*)}, % Определяем escape-последовательность
+	% Другие настройки...
+}
+
 % Стиль кода по ГОСТ
 \lstset{
 	language=C,
 	basicstyle=\ttfamily\small,
+	moredelim=[is][\color{red}]{@-}{-@}, % Маркеры @-...-@ для git-нотации
+	moredelim=[is][\color{ForestGreen}]{@+}{+@}, % Маркеры @+...+@ для git-нотации
 	numbers=left,
 	numberstyle=\tiny\color{gray},
 	stepnumber=1,
@@ -108,6 +116,8 @@
 	stringstyle=\color{red}
 }
 
+
+\RequirePackage{hyperref}
 
 % Настройка заголовков
 \RequirePackage{titlesec}

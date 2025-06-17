@@ -5,18 +5,18 @@ if (EFI_ERROR (Status)) {
  *BufferSize = 0;
  FatOFileFlush (OFile);
  OFile = NULL;
- /* MemoryLeak */
- if (Task != NULL) {
-   FatDestroyTask (Task);
- }
- /* DeadLock */
- FatReleaseLock ();
+ 
+@++ if (Task != NULL) { +@
+@++   FatDestroyTask (Task); +@
+@++ } +@
+
+@++FatReleaseLock (); +@
  goto Done;
 }
  FatUpdateDirEntClusterSizeInfo (OFile);
 ....
-/* Deadlock */
-FatReleaseLock ();
+
+@++FatReleaseLock (); +@
 if (Token != NULL) {
  if (!EFI_ERROR (Status)) {
    Status = FatQueueTask (IFile, Task);
@@ -26,8 +26,7 @@ if (Token != NULL) {
 }
 Done:
 .....
-/* DeadLock */
-// FatReleaseLock ();
+@-- FatReleaseLock (); -@
   return Status;
 }
 .....
