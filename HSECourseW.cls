@@ -73,6 +73,10 @@
 \RequirePackage[dvipsnames]{xcolor} % Для подсветки синтаксиса
 \RequirePackage{float}
 
+
+
+
+
 % ГОСТ-настройки листингов
 \DeclareCaptionLabelFormat{gostcaption}{Листинг #2} % Формат "Листинг X"
 \captionsetup[lstlisting]{
@@ -118,6 +122,15 @@
 
 
 \RequirePackage{hyperref}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,  
+	urlcolor=blue,
+	citecolor=blue
+}
+
+
 
 % Настройка заголовков
 \RequirePackage{titlesec}
